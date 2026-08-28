@@ -1,0 +1,6 @@
+print("hello world")
+print("Zoe")
+print("My name is Zoe")
+print("I love playing")
+print("The result of 3 + 5 is:",3+5)
+print(10+20)
