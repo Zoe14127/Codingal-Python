@@ -1,7 +1,12 @@
-color = input("What is your favorite color?: \n")
-animal = input("What is your favorite animal?: \n")
-food = input("What is your favorite food?: \n")
+import keyword
 
-print("Your favorite color is", color)
-print("Your favorite animal is", animal)
-print("Your favorite food is", food,end="")
+daily_minutes = 30
+name = input("What is your name? \n")
+skill = input("What is your skill? \n")
+month = input("What is your target month? \n")
+
+print("\nGoal Plan \n")
+print("My name is", name, "\nMy skill is", skill, "\nMy target month is", month, "\nI will practice for", daily_minutes, "minutes every day.")
+print("My name is", name, "My skill is", skill, "My target month is", month, end="") 
+print("I will practice for", daily_minutes, "minutes every day.")
+print(keyword.kwlist)
